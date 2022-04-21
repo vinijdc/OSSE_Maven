@@ -1,6 +1,14 @@
 package de.hfu;
 import java.util.Scanner;
 
+/**
+ * Dieses Programm konvertiert Kleinbuchstaben in Großbuchstaben
+ * 
+ * @author vinij
+ *
+ */
+
+
 public class UpperCase {
 	public static void main(String[] args) {
 		try(Scanner scanner = new Scanner(System.in)){
