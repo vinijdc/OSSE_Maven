@@ -1,13 +1,13 @@
 package de.hfu;
-import java.util.Scanner;
 
-public class UpperCaseTest {
-	public static void main(String[] args) {
-		try(Scanner scanner = new Scanner(System.in)){
-		    System.out.println("Bitte geben Sie einen Text in Kleinbuchstaben ein:");
-		    String text = scanner.nextLine();
-		    text = text.toUpperCase();
-		    System.out.println(text);
-		}
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class UpperCaseTest{
+	@Test
+	public void testStringtoUpperCase() {
+		final String eingabe = "Das ist ein Testfall.";
+		final String sollWert = "DAS IST EIN TESTFALL.";
+		assertEquals(sollWert, eingabe.toUpperCase());
 	}
 }
