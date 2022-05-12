@@ -9,7 +9,5 @@ import de.hfu.residents.domain.Resident;
  */
 
 public interface ResidentRepository {
-
   List<Resident> getResidents();
-
 }

@@ -1,7 +1,6 @@
 package de.hfu.residents.service;
 
 import java.util.List;
-
 import de.hfu.residents.domain.Resident;
 
 /**
